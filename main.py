@@ -63,6 +63,9 @@ class BookManager(QMainWindow):
         self.setCentralWidget(central_widget)
         self.setWindowTitle("Grāmatu Pārvaldnieks")
 
+    def format_book_output(self, book):
+        return f"ISBN: {book['ISBN']}\nNosaukums: {book['title']}\nAutors: {book['author']}\n"
+
     def add_book(self):
         book = {
             "ISBN": self.isbn_input.text(),
@@ -73,7 +76,7 @@ class BookManager(QMainWindow):
             if book["ISBN"] in self.books:
                 raise Exception("Grāmata ar šo ISBN jau eksistē")
             self.books[book["ISBN"]] = book
-            self.display_area.setText(f"Grāmata pievienota: {book}")
+            self.display_area.setText(f"Grāmata pievienota:\n{self.format_book_output(book)}")
         except Exception as e:
             self.display_area.setText(str(e))
 
@@ -83,7 +86,7 @@ class BookManager(QMainWindow):
             if isbn not in self.books:
                 raise Exception("Grāmata ar norādīto ISBN neeksistē")
             book = self.books[isbn]
-            self.display_area.setText(f"Grāmata atrasta: {book}")
+            self.display_area.setText(f"Grāmata atrasta:\n{self.format_book_output(book)}")
         except Exception as e:
             self.display_area.setText(str(e))
 
@@ -91,10 +94,11 @@ class BookManager(QMainWindow):
         name = self.title_input.text()
         found_books = []
         for book in self.books.values():
-            if name in book["title"]:
+            if name.lower() in book["title"].lower():
                 found_books.append(book)
         if found_books:
-            self.display_area.setText(f"Grāmatas atrastas: {found_books}")
+            formatted_books = '\n'.join([self.format_book_output(book) for book in found_books])
+            self.display_area.setText(f"Grāmatas atrastas:\n{formatted_books}")
         else:
             self.display_area.setText("Nav atrasta neviena grāmata ar šādu nosaukumu.")
 
@@ -102,10 +106,11 @@ class BookManager(QMainWindow):
         author = self.author_input.text()
         found_books = []
         for book in self.books.values():
-            if author in book["author"]:
+            if author.lower() in book["author"].lower():
                 found_books.append(book)
         if found_books:
-            self.display_area.setText(f"Grāmatas atrastas: {found_books}")
+            formatted_books = '\n'.join([self.format_book_output(book) for book in found_books])
+            self.display_area.setText(f"Grāmatas atrastas:\n{formatted_books}")
         else:
             self.display_area.setText("Nav atrasta neviena grāmata ar šādu autoru.")
 
