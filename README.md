@@ -2,6 +2,10 @@
 
 `gen-books.py` satur skriptu, kas izveido `books.json` failu ar realistiskiem datiem.
 
+`main.py` ielasa `books.json` failu un ļauj lietotājam veikt operācijas ar grāmatām.
+
+Lietotājsaskarne:
+![Lietotājsaskarne](./screenshot.png)
 
 ## Uzdevums
 
