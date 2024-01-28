@@ -1,0 +1,214 @@
+{
+    "books": [
+        {
+            "title": "Innovative explicit open system",
+            "author": "Anna Pace",
+            "ISBN": "978-149644591",
+            "price": 75.42,
+            "quantity_in_stock": 189
+        },
+        {
+            "title": "Organic hybrid Graphic Interface",
+            "author": "Troy Burnett",
+            "ISBN": "978-265044925",
+            "price": 46.1,
+            "quantity_in_stock": 122
+        },
+        {
+            "title": "Extended 6thgeneration benchmark",
+            "author": "Linda Lawrence",
+            "ISBN": "978-571853823",
+            "price": 33.41,
+            "quantity_in_stock": 55
+        },
+        {
+            "title": "Fundamental actuating neural-net",
+            "author": "Donald Cruz",
+            "ISBN": "978-527004808",
+            "price": 53.75,
+            "quantity_in_stock": 315
+        },
+        {
+            "title": "Sharable interactive benchmark",
+            "author": "Mrs. Melanie Jones",
+            "ISBN": "978-984229551",
+            "price": 124.03,
+            "quantity_in_stock": 404
+        },
+        {
+            "title": "Centralized attitude-oriented architecture",
+            "author": "Adrian Allen",
+            "ISBN": "978-662599430",
+            "price": 128.55,
+            "quantity_in_stock": 483
+        },
+        {
+            "title": "Reactive reciprocal middleware",
+            "author": "Emily Neal",
+            "ISBN": "978-195498008",
+            "price": 98.44,
+            "quantity_in_stock": 430
+        },
+        {
+            "title": "Distributed system-worthy project",
+            "author": "Julie Miller",
+            "ISBN": "978-282008353",
+            "price": 40.28,
+            "quantity_in_stock": 303
+        },
+        {
+            "title": "Stand-alone clear-thinking budgetary management",
+            "author": "Jennifer Howard",
+            "ISBN": "978-690501182",
+            "price": 120.94,
+            "quantity_in_stock": 8
+        },
+        {
+            "title": "Robust actuating extranet",
+            "author": "Madison Lopez",
+            "ISBN": "978-972086401",
+            "price": 149.19,
+            "quantity_in_stock": 9
+        },
+        {
+            "title": "Pre-emptive modular Graphical User Interface",
+            "author": "Jacob Gonzalez",
+            "ISBN": "978-788654392",
+            "price": 88.54,
+            "quantity_in_stock": 415
+        },
+        {
+            "title": "Organized attitude-oriented application",
+            "author": "Tina Hamilton DVM",
+            "ISBN": "978-658249509",
+            "price": 110.4,
+            "quantity_in_stock": 203
+        },
+        {
+            "title": "Innovative composite Internet solution",
+            "author": "Miss Angela Ruiz",
+            "ISBN": "978-149139348",
+            "price": 104.75,
+            "quantity_in_stock": 4
+        },
+        {
+            "title": "Integrated secondary open system",
+            "author": "Samantha Moore",
+            "ISBN": "978-214045017",
+            "price": 97.55,
+            "quantity_in_stock": 22
+        },
+        {
+            "title": "Re-contextualized 6thgeneration conglomeration",
+            "author": "Donna Kennedy",
+            "ISBN": "978-647590935",
+            "price": 60.37,
+            "quantity_in_stock": 241
+        },
+        {
+            "title": "Expanded bifurcated project",
+            "author": "Catherine Gentry",
+            "ISBN": "978-869332808",
+            "price": 60.99,
+            "quantity_in_stock": 234
+        },
+        {
+            "title": "Devolved content-based groupware",
+            "author": "Michelle Carroll",
+            "ISBN": "978-417539015",
+            "price": 118.12,
+            "quantity_in_stock": 246
+        },
+        {
+            "title": "Robust even-keeled initiative",
+            "author": "Matthew King",
+            "ISBN": "978-476721471",
+            "price": 109.6,
+            "quantity_in_stock": 409
+        },
+        {
+            "title": "Innovative mission-critical middleware",
+            "author": "Terry Simmons",
+            "ISBN": "978-345197705",
+            "price": 144.41,
+            "quantity_in_stock": 258
+        },
+        {
+            "title": "Fully-configurable background secured line",
+            "author": "Christina Taylor",
+            "ISBN": "978-203251238",
+            "price": 61.95,
+            "quantity_in_stock": 391
+        },
+        {
+            "title": "Upgradable uniform utilization",
+            "author": "Brandon Walter",
+            "ISBN": "978-091143734",
+            "price": 117.66,
+            "quantity_in_stock": 92
+        },
+        {
+            "title": "Focused modular protocol",
+            "author": "Anthony Stephens",
+            "ISBN": "978-470679507",
+            "price": 106.93,
+            "quantity_in_stock": 477
+        },
+        {
+            "title": "Open-source modular array",
+            "author": "Michelle West",
+            "ISBN": "978-600778153",
+            "price": 145.87,
+            "quantity_in_stock": 470
+        },
+        {
+            "title": "Vision-oriented holistic contingency",
+            "author": "Gina Vazquez",
+            "ISBN": "978-566027015",
+            "price": 139.94,
+            "quantity_in_stock": 446
+        },
+        {
+            "title": "Centralized actuating portal",
+            "author": "Meredith Perez",
+            "ISBN": "978-901116314",
+            "price": 12.87,
+            "quantity_in_stock": 334
+        },
+        {
+            "title": "Implemented value-added array",
+            "author": "Angela Lopez",
+            "ISBN": "978-498089168",
+            "price": 48.17,
+            "quantity_in_stock": 110
+        },
+        {
+            "title": "Cross-group real-time task-force",
+            "author": "Kelly Roberson",
+            "ISBN": "978-276307489",
+            "price": 27.5,
+            "quantity_in_stock": 125
+        },
+        {
+            "title": "Function-based transitional ability",
+            "author": "Melissa Morgan",
+            "ISBN": "978-543964629",
+            "price": 45.1,
+            "quantity_in_stock": 248
+        },
+        {
+            "title": "Re-engineered interactive flexibility",
+            "author": "Mark Curtis",
+            "ISBN": "978-134071725",
+            "price": 12.58,
+            "quantity_in_stock": 226
+        },
+        {
+            "title": "Automated local standardization",
+            "author": "Mrs. Gabriella Smith DDS",
+            "ISBN": "978-285265761",
+            "price": 53.99,
+            "quantity_in_stock": 67
+        }
+    ]
+}
