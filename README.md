@@ -1,3 +1,9 @@
+## Risinājums
+
+`gen-books.py` satur skriptu, kas izveido `books.json` failu ar realistiskiem datiem.
+
+
+## Uzdevums
 
 Uzdevums: Izstrādāt grāmatnīcas inventāra pārvaldības sistēmu Python programmēšanas valodā.
 
